@@ -1,0 +1,66 @@
+---
+title: "Will It Replicate - Introduction"
+author: "Eric Milgram"
+date: "4/11/2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::read_chunk("1000 - Plot Overlapping Normal Distributions.R")
+```
+
+## What is the purpose of this website?  
+The goal of this website is to illustrate concepts related to the application of statistics in scientific contexts, which include designed experiments and observational studies, and incorporating principles of *Reproducible Research*.
+
+Both of the authors of this website are very concerned about the public's growing distrust of conclusions drawn from scientific studies. In 2005, [Dr. John P. A. Ionnidis](https://en.wikipedia.org/wiki/John_Ioannidis) published an in PLoS - Medicine titled [Why Most Published Research Findings Are False](http://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124), wherein he explained the scope of the problem and gave some recommendations based on sound statistical principles for addressing this serious problem. The authors of this website believe strongly that an important component for increasing the quality of scientific conclusions is to use the principles of *Reproducible Research* (see the next item for more information).
+
+##  What is *Reproducible Research*?
+The fundamental principle of *Reproducible Research* is to make available for every published scientific study all raw data and numerical processing routines used by the study authors, with the goal being to enable anyone reading the resulting publication to be able to reproduce *exactly*, and in a facile manner, every single numerical result and figure contained in the publication that relies upon data.
+
+The following quote was taken from [Lecture 2 of a Coursera course titled, Reproducible Research](https://www.coursera.org/learn/reproducible-research/lecture/FvOGB/what-is-reproducible-research-about).
+
+> "Reproducible research is the idea that data analyses, and more generally, scientific claims, are published with their data and software code so that others may verify the findings and build upon them. The need for reproducibility is increasing dramatically as data analyses become more complex, involving larger datasets and more sophisticated computations. Reproducibility allows for people to focus on the actual content of a data analysis, rather than on superficial details reported in a written summary. In addition, reproducibility makes an analysis more useful to others because the data and code that actually conducted the analysis are available."
+
+## Who is the target audience for this website?
+The target audience is scientists who want to learn more about applying principles of *Reproducible Research* in their daily work. 
+
+## What makes this website unique?  
+### Presentation of Fundamental Statistical Concepts
+There are many websites dedicated to explaining statistical concepts. For example, [Wikipedia](https://en.wikipedia.org/wiki/Statistics) contains many high quality entries for virtually any common statistical concept. However, many of these entries are written by statisticians for statisticians. For scientists with no formal statistical training, using these entries to try and gain an understanding of fundamental concepts of statistics that could be applied to their own field is daunting.  
+
+For most scientists, their introduction to statistics often came through a *crash-course* that was incorporated into their respective field of study. For example, chemistry students are universally introduced to the concepts of *sample* and *population* *means* and *standard deviations* in their first chemistry course.
+
+Because these introductory courses have so much material to cover, the instructors cannot dedicate substantial time to teaching statistical concepts, so instead, they teach just the minimal amount needed to solve the problem at hand. When statistical concepts are introduced in this manner, they are presented in an algorithmic fashion, where students are told *which* formulas to use for a limited problem set, but the underlying concepts are not taught. Without such knowledge, a scientist's toolbox is extremely limited.
+
+### Material Presented in formats the Enable Reproducible Research
+Traditional books have served humanity well in conveying knowledge. However, with the rise of the WWW, websites can be used to create interactive pages that enable understanding complex concepts in ways that static pages could never do. If a picture is worth a thousand words, then a well-designed, interactive web-page is worth a thousand pictures.
+
+### R Markdown
+Many of the pages on this website will use dynamically generated figures. Initially, these figures will be rendered using the [R Markdown](http://rmarkdown.rstudio.com/) package, because we have experience with that framework. However, we are not opposed to using other frameworks for *Reproducible Research*, such as [Python's Jupyter Notebook](http://jupyter.org/). Every example will contain the actual code used to generate the figure. Interested readers wishing to replicate the figures can simply copy the code on the page. Alternatively, the complete codebase can be obtained via a Github repository located at [https://github.com/ScientificProgrammer/WillItReplicate.git](https://github.com/ScientificProgrammer/WillItReplicate.git). If you are interested in contributing and know how to use Github, feel free to `clone` the repository, make changes, and submit a  `pull` request. Obviously, we cannot guarantee that all of your changes will be accepted, but we will certainly be happy to incorporate content that we feel enhances the site.
+
+The block of code shown below was used to generate the figure below the code block. If you would like to run the code yourself, simply copy and paste it into R. We recommend the use of R-Studio, which is free can be downloaded at [https://www.rstudio.com/products/rstudio/download/](https://www.rstudio.com/products/rstudio/download/), but before installing R-Studio, you need to have a current version of R installed. The R software can be downloaded at [https://www.r-project.org/](https://www.r-project.org/).
+
+```{r Chunk-1000}
+```
+
+
+## Who are the people behind this website?
+
+### Eric Milgram, PhD
+Dr. Eric Milgram holds a BS in [chemistry](https://en.wikipedia.org/wiki/Chemistry) and PhD in [analytical chemistry](https://en.wikipedia.org/wiki/Analytical_chemistry), both from the [University of Florida](http://www.ufl.edu/)'s [Department of Chemistry](https://www.chem.ufl.edu/). His [PhD research](http://pubs.acs.org/doi/abs/10.1021/ac970126n) focused on designing and building atmospheric pressure ionization sources for ultra high resolution mass spectrometry applications.
+
+After earning his PhD, most of his professional career experience was split between the pharmaceutical, biotechnology, and food &amp; beverage industries. He has worked for numerous well-known organizations including the [US Centers for Disease Control and Prevention](https://www.cdc.gov/), [Pfizer](http://www.pfizer.com/), [Metabolon](http://www.metabolon.com/) and [PepsiCo](http://www.pepsico.com/).
+
+Dr. Milgram's professional interests include applications of [data science](https://en.wikipedia.org/wiki/Data_science) to [analytical chemistry](https://en.wikipedia.org/wiki/Analytical_chemistry), especially [machine learning](https://www.coursera.org/learn/machine-learning). He is a big fan of the [R Studio](https://www.rstudio.com/) environment.
+
+Dr. Milgram can be found on [Twitter](https://twitter.com/EricMilgram) and [LinkedIn](https://www.linkedin.com/in/kmilgram/).
+
+### Stan Young, PhD
+Dr. S. Stanley Young is a retired researcher from [Eli Lilly](https://www.lilly.com/), [GlaxoSmithKline](http://www.gsk.com/) and the [National Institute of Statistical Sciences](https://www.niss.org/).
+
+Dr. Young graduated from [North Carolina State University](https://www.ncsu.edu/), BS, MES and a PhD in Statistics and Genetics. He worked in the pharmaceutical industry on all phases of pre-clinical research. He has authored or co-authored over 60 papers including six "*best paper*" awards and a highly cited book, [Resampling-Based Multiple Testing](http://www.wiley.com/WileyCDA/WileyTitle/productCd-0471557617.html) and has three issued patents.
+
+Dr. Young is interested in all aspects of applied statistics, with special interest in [chemical informatics](https://en.wikipedia.org/wiki/Cheminformatics) and [biological informatics](https://en.wikipedia.org/wiki/Bioinformatics). His current research interest is in the area of [data mining](https://en.wikipedia.org/wiki/Data_mining).
+
+Dr. Young is a *fellow* of the [American Statistical Association](http://www.amstat.org/ASA/Your-Career/Awards/ASA-Fellows.aspx) and the [American Association for the Advancement of Science](https://www.aaas.org/elected-fellows). He is also an adjunct professor of statistics at [North Carolina State University](https://www.ncsu.edu/), the [University of Waterloo](https://uwaterloo.ca/), and the [University of British Columbia](https://www.ubc.ca/), where he has co-directed thesis work.
