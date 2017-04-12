@@ -1,5 +1,5 @@
 ---
-title: "Will It Replicate - Introduction"
+title: "Will It Replicate?"
 author: "Eric Milgram"
 date: "4/11/2017"
 output: html_document
@@ -11,9 +11,9 @@ knitr::read_chunk("1000 - Plot Overlapping Normal Distributions.R")
 ```
 
 ## What is the purpose of this website?  
-The goal of this website is to illustrate concepts related to the application of statistics in scientific contexts, which include designed experiments and observational studies, and incorporating principles of *Reproducible Research*.
+This website has two primary objectives. The first objective is to illustrate concepts related to the application of statistics in scientific contexts, which includes both *designed experiments* and *observational studies*. The second objective is to demonstrate principles of *Reproducible Research*.
 
-Both of the authors of this website are very concerned about the public's growing distrust of conclusions drawn from scientific studies. In 2005, [Dr. John P. A. Ionnidis](https://en.wikipedia.org/wiki/John_Ioannidis) published an in PLoS - Medicine titled [Why Most Published Research Findings Are False](http://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124), wherein he explained the scope of the problem and gave some recommendations based on sound statistical principles for addressing this serious problem. The authors of this website believe strongly that an important component for increasing the quality of scientific conclusions is to use the principles of *Reproducible Research* (see the next item for more information).
+We are very concerned about the general public's growing distrust of conclusions drawn from scientific studies. The public's skepticism is understandable. In 2005, [Dr. John P. A. Ionnidis](https://en.wikipedia.org/wiki/John_Ioannidis) published an essay in PLoS - Medicine titled [Why Most Published Research Findings Are False](http://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124), wherein he explained the scope of the problem related to irreproducible research and gave some recommendations based on sound statistical principles for addressing this serious issue. We believe strongly that one very important component for increasing the quality of scientific studies that yield reproducible results is to use the principles of *Reproducible Research* (see the next item for more information).
 
 ##  What is *Reproducible Research*?
 The fundamental principle of *Reproducible Research* is to make available for every published scientific study all raw data and numerical processing routines used by the study authors, with the goal being to enable anyone reading the resulting publication to be able to reproduce *exactly*, and in a facile manner, every single numerical result and figure contained in the publication that relies upon data.
@@ -33,13 +33,13 @@ For most scientists, their introduction to statistics often came through a *cras
 
 Because these introductory courses have so much material to cover, the instructors cannot dedicate substantial time to teaching statistical concepts, so instead, they teach just the minimal amount needed to solve the problem at hand. When statistical concepts are introduced in this manner, they are presented in an algorithmic fashion, where students are told *which* formulas to use for a limited problem set, but the underlying concepts are not taught. Without such knowledge, a scientist's toolbox is extremely limited.
 
-### Material Presented in formats the Enable Reproducible Research
+### Material Presented in formats that Enable Reproducible Research
 Traditional books have served humanity well in conveying knowledge. However, with the rise of the WWW, websites can be used to create interactive pages that enable understanding complex concepts in ways that static pages could never do. If a picture is worth a thousand words, then a well-designed, interactive web-page is worth a thousand pictures.
 
 ### R Markdown
 Many of the pages on this website will use dynamically generated figures. Initially, these figures will be rendered using the [R Markdown](http://rmarkdown.rstudio.com/) package, because we have experience with that framework. However, we are not opposed to using other frameworks for *Reproducible Research*, such as [Python's Jupyter Notebook](http://jupyter.org/). Every example will contain the actual code used to generate the figure. Interested readers wishing to replicate the figures can simply copy the code on the page. Alternatively, the complete codebase can be obtained via a Github repository located at [https://github.com/ScientificProgrammer/WillItReplicate.git](https://github.com/ScientificProgrammer/WillItReplicate.git). If you are interested in contributing and know how to use Github, feel free to `clone` the repository, make changes, and submit a  `pull` request. Obviously, we cannot guarantee that all of your changes will be accepted, but we will certainly be happy to incorporate content that we feel enhances the site.
 
-The block of code shown below was used to generate the figure below the code block. If you would like to run the code yourself, simply copy and paste it into R. We recommend the use of R-Studio, which is free can be downloaded at [https://www.rstudio.com/products/rstudio/download/](https://www.rstudio.com/products/rstudio/download/), but before installing R-Studio, you need to have a current version of R installed. The R software can be downloaded at [https://www.r-project.org/](https://www.r-project.org/).
+The block of code shown below was used to generate the figure below the code block. If you would like to run the code yourself, simply copy and paste it into R. We recommend the use of R-Studio, which is free and can be downloaded at [https://www.rstudio.com/products/rstudio/download/](https://www.rstudio.com/products/rstudio/download/), but before installing R-Studio, you need to have a current version of R installed. The R software can be downloaded at [https://www.r-project.org/](https://www.r-project.org/).
 
 ```{r Chunk-1000}
 ```
